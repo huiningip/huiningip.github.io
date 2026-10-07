@@ -1493,17 +1493,23 @@ section[id] { scroll-margin-top: 84px; }
 </style>
 
 <!-- ========== Open Graph / Twitter（P0） ========== -->
+<link rel="canonical" href="https://huiningip.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="辉宁知识产权">
 <meta property="og:title" content="佛山辉宁知识产权服务有限公司 | Foshan Huining IP">
 <meta property="og:description" content="佛山辉宁知识产权服务有限公司 — 以专业为根基，以AI为引擎，连接中国与世界。商标/专利/版权/涉外知识产权/AI+IP解决方案。">
+<meta property="og:url" content="https://huiningip.github.io/">
+<meta property="og:image" content="https://huiningip.github.io/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="辉宁知识产权 · 佛山辉宁知识产权服务有限公司">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="zh_CN">
-<meta property="og:locale:alternate" content="en_US">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://huiningip.github.io/og-home.png">
 <meta name="twitter:title" content="佛山辉宁知识产权服务有限公司 | Foshan Huining IP">
 <meta name="twitter:description" content="佛山辉宁知识产权服务有限公司 — 以专业为根基，以AI为引擎，连接中国与世界。商标/专利/版权/涉外知识产权/AI+IP解决方案。">
-<!-- 待补（需真实值，未编造）：og:url、og:image、Organization.url、Organization.logo、sameAs（公众号/小红书主页） -->
+<!-- 已补（使用当前线上域名 https://huiningip.github.io/）：og:url、og:image、canonical、twitter:image、Organization.url。仍在待补（需真实值，未编造）：Organization.logo（需一张已托管的方形 logo 图）、sameAs（公众号/小红书主页 URL）。另：启用正式域名后，请把本文件与 skill-madrid-trademark.html 中的域名整体替换。 -->
 <!-- ========== 结构化数据（P0：3 类；FAQPage 待 P2 与页面可见 FAQ 同步上线） ========== -->
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -1511,6 +1517,7 @@ section[id] { scroll-margin-top: 84px; }
     {
       "@type": "Organization",
       "@id": "#organization",
+      "url": "https://huiningip.github.io/",
       "name": "佛山辉宁知识产权服务有限公司",
       "alternateName": "辉宁知识产权",
       "foundingDate": "2026-06-05",
@@ -1943,6 +1950,21 @@ html[lang="en"] .fb-en { display: none; }
 .skill-link.primary:hover { background: var(--navy-light); border-color: var(--navy-light); color: var(--white); }
 @media (max-width: 640px) { .skill-link { font-size: 12px; padding: 7px 13px; } }
 </style>
+<style id="proprietary-style">
+.skill-badge.closed { background: var(--navy); }
+.prop-cta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--gray-100); }
+.prop-cta .pc-text { font-size: 15px; color: var(--gray-600); }
+</style>
+<style id="nav-tight-style">
+/* 9 nav items: tighten the inline nav in the narrow desktop band (drawer takes over at <=1024px) */
+@media (min-width: 1025px) and (max-width: 1150px) {
+  .nav-links { gap: 19px; }
+  .nav-link { font-size: 13.5px; }
+  .lang-switch { margin-left: 4px; }
+  .lang-btn { padding: 6px 12px; }
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main" data-i18n="a11y.skip">跳到主要内容</a>
@@ -1968,6 +1990,7 @@ html[lang="en"] .fb-en { display: none; }
       <a class="nav-link" data-i18n="nav.ai" onclick="scrollToId('ai')">AI 赋能</a>
       <a class="nav-link" data-i18n="nav.services" onclick="scrollToId('services')">核心业务</a>
       <a class="nav-link" data-i18n="nav.skills" onclick="scrollToId('skills')">开源技能</a>
+      <a class="nav-link" data-i18n="nav.proprietary" onclick="scrollToId('proprietary')">专有技能</a>
       <a class="nav-link" data-i18n="nav.knowledge" onclick="scrollToId('knowledge')">开源知识库</a>
       <a class="nav-link" data-i18n="nav.faq" onclick="scrollToId('faq')">常见问题</a><a class="nav-link" data-i18n="nav.team" onclick="scrollToId('team')">团队</a>
       <a class="nav-link" data-i18n="nav.contact" onclick="scrollToId('contact')">联系我们</a>
@@ -2410,6 +2433,92 @@ html[lang="en"] .fb-en { display: none; }
   </div>
 </section>
 
+<!-- ========== 专有技能（闭源 · 不对外） ========== -->
+<section class="section alt-bg" id="proprietary">
+  <div class="section-inner">
+    <div class="section-tag" data-i18n="prop.tag">Proprietary Skills</div>
+    <h2 class="section-title" data-i18n="prop.title">专有技能</h2>
+    <div class="section-divider"></div>
+    <p class="section-desc" data-i18n="prop.desc">辉宁自研的商标争议类专有技能，闭源、不对外提供。三者面向 CNIPA 商标确权程序，构成从驳回复审、异议与无效到撤三的争议应对体系。</p>
+
+    <div class="skill-grid">
+      <div class="skill-card">
+        <div class="skill-head">
+          <div class="skill-name">cnipa-trademark-refusal-review</div>
+          <div class="skill-badge closed" data-i18n="prop.badge">闭源</div>
+        </div>
+        <div class="skill-title" data-i18n="prop.p1.title">商标驳回复审推理引擎</div>
+        <p class="skill-desc" data-i18n="prop.p1.desc">面向 CNIPA 驳回通知书的要件化论证、证据链工程与 A–E 风险闸门研判；内置《商标法》《实施条例》《商标评审规则》全文（指南经中央知识库指针引用）与国知局证据问答，输出可直接提交的驳回复审材料结构。</p>
+        <div class="skill-tags-label" data-i18n="skills.triggers">触发词</div>
+        <div class="skill-tags">
+          <span class="skill-tag" data-i18n="prop.p1.t1">商标驳回</span>
+          <span class="skill-tag" data-i18n="prop.p1.t2">驳回复审</span>
+          <span class="skill-tag" data-i18n="prop.p1.t3">引证商标</span>
+          <span class="skill-tag" data-i18n="prop.p1.t4">近似 Art.30</span>
+          <span class="skill-tag" data-i18n="prop.p1.t5">显著性 Art.11</span>
+          <span class="skill-tag" data-i18n="prop.p1.t6">禁用条款 Art.10</span>
+          <span class="skill-tag" data-i18n="prop.p1.t7">在先权利 Art.32</span>
+        </div>
+        <div class="skill-meta">
+          <div class="meta-icon" data-i18n="prop.p1.mi">复</div>
+          <div class="meta-text" data-i18n="prop.p1.meta">适用场景：收到 CNIPA 驳回通知书后的复审论证、引证商标攻防与止损研判</div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <div class="skill-name">cnipa-trademark-opposition-invalidation</div>
+          <div class="skill-badge closed" data-i18n="prop.badge">闭源</div>
+        </div>
+        <div class="skill-title" data-i18n="prop.p2.title">商标异议·无效申请推理引擎</div>
+        <p class="skill-desc" data-i18n="prop.p2.desc">面向 CNIPA 商标异议与无效宣告程序的要件化推理引擎：以 IRAC 结构逐要件论证，配合证据六性校验与 A–E 风险闸门，输出审查员可读、可直接提交的攻防文书结构。</p>
+        <div class="skill-tags-label" data-i18n="skills.triggers">触发词</div>
+        <div class="skill-tags">
+          <span class="skill-tag" data-i18n="prop.p2.t1">商标异议</span>
+          <span class="skill-tag" data-i18n="prop.p2.t2">无效宣告</span>
+          <span class="skill-tag" data-i18n="prop.p2.t3">异议理由书</span>
+          <span class="skill-tag" data-i18n="prop.p2.t4">绝对理由／相对理由</span>
+          <span class="skill-tag" data-i18n="prop.p2.t5">恶意抢注</span>
+          <span class="skill-tag" data-i18n="prop.p2.t6">在先权利</span>
+          <span class="skill-tag" data-i18n="prop.p2.t7">止损决策</span>
+        </div>
+        <div class="skill-meta">
+          <div class="meta-icon" data-i18n="prop.p2.mi">争</div>
+          <div class="meta-text" data-i18n="prop.p2.meta">适用场景：异议申请书与理由书、无效宣告申请书、理由择定、主体资格与时效闸门</div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <div class="skill-name">cnipa-nonuse-evidence</div>
+          <div class="skill-badge closed" data-i18n="prop.badge">闭源</div>
+        </div>
+        <div class="skill-title" data-i18n="prop.p3.title">撤三证据链与风险审核引擎</div>
+        <p class="skill-desc" data-i18n="prop.p3.desc">面向 CNIPA 连续三年不使用撤销（撤三）案件的双轨证据引擎。被申请人端构建「指定期间连续使用」证据链，输出答辩理由、证据目录与风险报告；申请人端对答辩证据做质证审计，输出质证意见与风险分级。以「期间 → 证据 → 要件 → 逻辑 → 风险 → 决策 → 文书」为主轴，含证据六性校验、T1–T6 证明目标映射、P1–P3 三期分割控制与 G1–G6 致命闸门、A–E 风险分级。</p>
+        <div class="skill-tags-label" data-i18n="skills.triggers">触发词</div>
+        <div class="skill-tags">
+          <span class="skill-tag" data-i18n="prop.p3.t1">撤三</span>
+          <span class="skill-tag" data-i18n="prop.p3.t2">连续三年不使用</span>
+          <span class="skill-tag" data-i18n="prop.p3.t3">撤三答辩</span>
+          <span class="skill-tag" data-i18n="prop.p3.t4">撤三质证</span>
+          <span class="skill-tag" data-i18n="prop.p3.t5">证据六性校验</span>
+          <span class="skill-tag" data-i18n="prop.p3.t6">T1–T6 证明目标</span>
+          <span class="skill-tag" data-i18n="prop.p3.t7">A–E 风险分级</span>
+        </div>
+        <div class="skill-meta">
+          <div class="meta-icon" data-i18n="prop.p3.mi">证</div>
+          <div class="meta-text" data-i18n="prop.p3.meta">适用场景：撤三答辩证据链构建、证据目录、质证意见与风险报告</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prop-cta">
+      <span class="pc-text" data-i18n="prop.ctaPre">相关业务咨询，请</span>
+      <a class="btn btn-primary" href="#contact" onclick="scrollToId('contact')" data-i18n="prop.ctaLink">联系我们</a>
+    </div>
+  </div>
+</section>
+
 <!-- ========== 开源知识库 ========== -->
 <section class="section knowledge-section" id="knowledge">
   <div class="section-inner">
@@ -2628,6 +2737,7 @@ html[lang="en"] .fb-en { display: none; }
         <a data-i18n="footer.n3" onclick="scrollToId('ai')">AI 赋能</a>
         <a data-i18n="footer.n2" onclick="scrollToId('services')">核心业务</a>
         <a data-i18n="footer.n5" onclick="scrollToId('skills')">开源技能</a>
+        <a data-i18n="footer.n9" onclick="scrollToId('proprietary')">专有技能</a>
         <a data-i18n="footer.n6" onclick="scrollToId('knowledge')">开源知识库</a>
         <a data-i18n="footer.n7" onclick="scrollToId('faq')">常见问题</a>
         <a data-i18n="footer.n8" onclick="scrollToId('team')">团队</a>
@@ -2756,8 +2866,49 @@ const I18N = {
     'skills.s2.t5': '临时驳回', 'skills.s2.t6': '单独规费', 'skills.s2.t7': '中心攻击转化',
         'skills.s2.t8': '缔约方声明',
     'skills.s2.mi': '途', 'skills.s2.meta': '适用场景：国际注册申请与后期指定、费用测算、期限与答复期计算、驳回救济、中心攻击转化、缔约方声明核查',
-        'skills.s2.detail': '技能详情',
-        'skills.s2.repo': 'GitHub 仓库',
+    'skills.s2.detail': '技能详情',
+    'skills.s2.repo': 'GitHub 仓库',
+    'prop.tag': 'In-House Skills',
+    'prop.title': '专有技能',
+    'prop.desc': '辉宁自研的商标争议类专有技能，闭源、不对外提供。三者面向 CNIPA 商标确权程序，构成从驳回复审、异议与无效到撤三的争议应对体系。',
+    'prop.badge': '闭源',
+    'nav.proprietary': '专有技能',
+    'footer.n9': '专有技能',
+    'prop.ctaPre': '相关业务咨询，请',
+    'prop.ctaLink': '联系我们',
+    'prop.p1.title': '商标驳回复审推理引擎',
+    'prop.p1.desc': '面向 CNIPA 驳回通知书的要件化论证、证据链工程与 A–E 风险闸门研判；内置《商标法》《实施条例》《商标评审规则》全文（指南经中央知识库指针引用）与国知局证据问答，输出可直接提交的驳回复审材料结构。',
+    'prop.p1.t1': '商标驳回',
+    'prop.p1.t2': '驳回复审',
+    'prop.p1.t3': '引证商标',
+    'prop.p1.t4': '近似 Art.30',
+    'prop.p1.t5': '显著性 Art.11',
+    'prop.p1.t6': '禁用条款 Art.10',
+    'prop.p1.t7': '在先权利 Art.32',
+    'prop.p1.mi': '复',
+    'prop.p1.meta': '适用场景：收到 CNIPA 驳回通知书后的复审论证、引证商标攻防与止损研判',
+    'prop.p2.title': '商标异议·无效申请推理引擎',
+    'prop.p2.desc': '面向 CNIPA 商标异议与无效宣告程序的要件化推理引擎：以 IRAC 结构逐要件论证，配合证据六性校验与 A–E 风险闸门，输出审查员可读、可直接提交的攻防文书结构。',
+    'prop.p2.t1': '商标异议',
+    'prop.p2.t2': '无效宣告',
+    'prop.p2.t3': '异议理由书',
+    'prop.p2.t4': '绝对理由／相对理由',
+    'prop.p2.t5': '恶意抢注',
+    'prop.p2.t6': '在先权利',
+    'prop.p2.t7': '止损决策',
+    'prop.p2.mi': '争',
+    'prop.p2.meta': '适用场景：异议申请书与理由书、无效宣告申请书、理由择定、主体资格与时效闸门',
+    'prop.p3.title': '撤三证据链与风险审核引擎',
+    'prop.p3.desc': '面向 CNIPA 连续三年不使用撤销（撤三）案件的双轨证据引擎。被申请人端构建「指定期间连续使用」证据链，输出答辩理由、证据目录与风险报告；申请人端对答辩证据做质证审计，输出质证意见与风险分级。以「期间 → 证据 → 要件 → 逻辑 → 风险 → 决策 → 文书」为主轴，含证据六性校验、T1–T6 证明目标映射、P1–P3 三期分割控制与 G1–G6 致命闸门、A–E 风险分级。',
+    'prop.p3.t1': '撤三',
+    'prop.p3.t2': '连续三年不使用',
+    'prop.p3.t3': '撤三答辩',
+    'prop.p3.t4': '撤三质证',
+    'prop.p3.t5': '证据六性校验',
+    'prop.p3.t6': 'T1–T6 证明目标',
+    'prop.p3.t7': 'A–E 风险分级',
+    'prop.p3.mi': '证',
+    'prop.p3.meta': '适用场景：撤三答辩证据链构建、证据目录、质证意见与风险报告',
     'skills.s3.title': '海牙体系国际外观设计专利技能',
     'skills.s3.desc': '覆盖海牙协定日内瓦文本（1999）、实施细则、行政规程、WIPO 海牙体系指南、CNIPA 业务流程指引及专利业务办理系统操作。适用于中国专利代理师处理外观设计国际申请全流程。',
     'skills.s3.t1': '海牙', 'skills.s3.t2': '外观设计国际申请', 'skills.s3.t3': 'Hague', 'skills.s3.t4': '指定中国',
@@ -2939,8 +3090,49 @@ const I18N = {
     'skills.s2.t5': 'provisional refusal', 'skills.s2.t6': 'individual fee', 'skills.s2.t7': 'central attack transformation',
         'skills.s2.t8': 'declarations',
     'skills.s2.mi': 'AP', 'skills.s2.meta': 'Scenarios: international application & subsequent designation, fee calculation, deadline & response-period computation, refusal remedies, central attack transformation, declaration review',
-        'skills.s2.detail': 'Skill details',
-        'skills.s2.repo': 'GitHub repo',
+    'skills.s2.detail': 'Skill details',
+    'skills.s2.repo': 'GitHub repo',
+    'prop.tag': 'In-House Skills',
+    'prop.title': 'Proprietary Skills',
+    'prop.desc': 'Proprietary trademark-dispute skills developed in-house by Hui Ning. Closed-source and not distributed externally. Together they cover the CNIPA trademark dispute chain: refusal review, opposition and invalidation, and non-use cancellation.',
+    'prop.badge': 'CLOSED',
+    'nav.proprietary': 'Proprietary Skills',
+    'footer.n9': 'Proprietary Skills',
+    'prop.ctaPre': 'For enquiries about these services, please',
+    'prop.ctaLink': 'Contact us',
+    'prop.p1.title': 'CNIPA Trademark Refusal Review Engine',
+    'prop.p1.desc': 'IRAC-driven CNIPA trademark refusal review engine that turns refusal notices and evidence into examiner-readable briefs, six-factor validation chains and A-E risk gates. Bundles the PRC Trademark Law (2019), Implementing Regulations (2014) and the Trademark Review Rules (2014), points to the 2021 Trademark Examination Guidelines via the central knowledge-base skill, plus CNIPA official evidence Q&A, classification guidance and official filing templates.',
+    'prop.p1.t1': 'refusal',
+    'prop.p1.t2': 'refusal review',
+    'prop.p1.t3': 'cited mark',
+    'prop.p1.t4': 'similarity Art.30',
+    'prop.p1.t5': 'distinctiveness Art.11',
+    'prop.p1.t6': 'prohibited signs Art.10',
+    'prop.p1.t7': 'prior rights Art.32',
+    'prop.p1.mi': 'RR',
+    'prop.p1.meta': 'Scenarios: refusal-review argumentation, cited-mark offence and defence, and stop-loss assessment',
+    'prop.p2.title': 'CNIPA Trademark Opposition & Invalidation Reasoning Engine',
+    'prop.p2.desc': 'Element-based reasoning engine for CNIPA trademark opposition and invalidation proceedings — IRAC-structured argumentation, six-factor evidence validation and A–E risk gates, producing examiner-readable, submission-ready briefs.',
+    'prop.p2.t1': 'opposition',
+    'prop.p2.t2': 'invalidation',
+    'prop.p2.t3': 'opposition brief',
+    'prop.p2.t4': 'absolute / relative grounds',
+    'prop.p2.t5': 'bad-faith filing',
+    'prop.p2.t6': 'prior rights',
+    'prop.p2.t7': 'stop-loss decision',
+    'prop.p2.mi': 'OI',
+    'prop.p2.meta': 'Scenarios: opposition and invalidation briefs, grounds selection, standing and time-limit gates',
+    'prop.p3.title': 'CNIPA Non-Use Evidence Engine',
+    'prop.p3.desc': 'Dual-track evidence engine for CNIPA three-year non-use cancellation proceedings. The defence track builds a continuous-use evidence chain mapped to the designated period and produces the defence brief, evidence index and risk report; the offensive track audits the counterparty\'s evidence and produces cross-examination arguments and a risk grade. Organised around Period, Evidence, Elements, Logic, Risk, Decision and Document, with six-factor evidence validation, T1-T6 proof targets, P1-P3 period segmentation control, G1-G6 fatal kill gates and A-E risk grading.',
+    'prop.p3.t1': 'non-use cancellation',
+    'prop.p3.t2': 'three-year non-use',
+    'prop.p3.t3': 'defence brief',
+    'prop.p3.t4': 'cross-examination',
+    'prop.p3.t5': 'six-factor validation',
+    'prop.p3.t6': 'T1-T6 proof targets',
+    'prop.p3.t7': 'A-E risk grading',
+    'prop.p3.mi': 'NU',
+    'prop.p3.meta': 'Scenarios: defence evidence chains, evidence index, cross-examination opinions and risk reports',
     'skills.s3.title': 'Hague System International Design Patent',
     'skills.s3.desc': 'Covers the Geneva Act (1999) of the Hague Agreement, Regulations, Administrative Instructions, WIPO Hague Guide, CNIPA business procedures and the patent business system operations. For Chinese patent attorneys handling the full international design application process.',
     'skills.s3.t1': 'Hague', 'skills.s3.t2': 'design international application', 'skills.s3.t3': 'eHague', 'skills.s3.t4': 'designate China',
